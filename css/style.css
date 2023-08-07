@@ -3,14 +3,15 @@
 
 /* Basic Styling */
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+  background-color: #fff;
+  color: #393939;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
   }
   
   header {
-    background-color: #faebd7;
     color: #ffffff;
     padding: 1rem;
   }
@@ -19,6 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
   }
   
   .logo img {
@@ -31,6 +33,7 @@ body {
     margin-right: 1rem;
     font-size: x-large;
     text-transform:uppercase;
+    text-decoration: none;
   }
   
   .cta {
@@ -42,22 +45,19 @@ body {
   }
   
   .hero {
-    background-color: #393939;
-    color: #faebd7;
+    
     text-align: center;
     padding: 3rem;
   }
   
   .about {
-    background-color: #393939;
-    color: #faebd7;
+    
     text-align: center;
     padding: 3rem;
   }
   
   .services {
-    background-color: #393939;
-    color: #faebd7;
+    
     text-align: center;
     padding: 3rem;
   }
@@ -72,8 +72,7 @@ body {
   }
   
   .portfolio {
-    background-color: #393939;
-    color: #faebd7;
+    
     text-align: center;
     padding: 3rem;
   }
@@ -84,8 +83,7 @@ body {
   }
   
   .testimonials {
-    background-color: #393939;
-    color: #faebd7;
+    
     text-align: center;
     padding: 3rem;
   }
@@ -97,7 +95,7 @@ body {
   
   .contact {
     background-color: #ff3838;
-    color: #ffffff;
+   
     text-align: center;
     padding: 3rem;
   }
@@ -119,7 +117,6 @@ body {
   }
   
   form button {
-    background-color: #ffffff;
     color: #ff3838;
     cursor: pointer;
   }
@@ -129,8 +126,7 @@ body {
   }
   
   footer {
-    background-color: #393939;
-    color: #ffffff;
+    
     text-align: center;
     padding: 1rem;
   }
