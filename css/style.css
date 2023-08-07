@@ -1,0 +1,137 @@
+/* Add your CSS styles here */
+
+
+/* Basic Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #faebd7;
+    color: #ffffff;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 1rem;
+    font-size: x-large;
+    text-transform:uppercase;
+  }
+  
+  .cta {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #393939;
+    color: #faebd7;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .about {
+    background-color: #393939;
+    color: #faebd7;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .services {
+    background-color: #393939;
+    color: #faebd7;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .services h3 {
+    margin-top: 1rem;
+  }
+  
+  .services p {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .portfolio {
+    background-color: #393939;
+    color: #faebd7;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .portfolio img {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .testimonials {
+    background-color: #393939;
+    color: #faebd7;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .testimonial p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact {
+    background-color: #ff3838;
+    color: #ffffff;
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #ffffff;
+    color: #ff3838;
+    cursor: pointer;
+  }
+  
+  .contact-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  footer {
+    background-color: #393939;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
