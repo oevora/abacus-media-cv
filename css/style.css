@@ -6,14 +6,22 @@ body {
   background-color: #fff;
   color: #393939;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
   line-height: 1.2;
   margin: 0;
   padding: 0;
   }
   
   header {
-    color: #ffffff;
-    padding: 1rem;
+    color: #fff;
+    background-color: #333;
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
   }
   
   nav {
@@ -24,34 +32,71 @@ body {
   }
   
   .logo img {
-    height: 100px;
+    width: 100px;
     margin-left: 10px;
   }
   
+  .nav-links {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .nav-links li {
     display: inline;
     margin-right: 1rem;
-    font-size: x-large;
-    text-transform:uppercase;
+    font-size: 1rem;
+    text-transform:uppercase;    
+  }
+  
+  .nav-links li a {
+    color:#fff;
     text-decoration: none;
+    background-color: #ff3838;
+    padding: 3px;
+    border-radius: 10%;
+    margin-right: 2px;
   }
   
   .cta {
-    background-color: #ff6b6b;
-    color: #ffffff;
-    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 2px;
+    background-color: #fff;
+    color: #ff3838;
+    text-decoration: none;    
     border-radius: 5px;
-    text-decoration: none;
+  }
+
+  /* Media queries for responsive screen layout */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .nav-links {
+    display: block;
   }
   
-  .hero {
-    
+  .cta {
+    margin-top: 0;
+  }
+}  
+  .hero {    
     text-align: center;
     padding: 3rem;
   }
   
-  .about {
-    
+  .about {    
     text-align: center;
     padding: 3rem;
   }
@@ -94,7 +139,7 @@ body {
   }
   
   .contact {
-    background-color: #ff3838;
+    background-color: #333;
    
     text-align: center;
     padding: 3rem;
@@ -125,8 +170,7 @@ body {
     margin-bottom: 0.5rem;
   }
   
-  footer {
-    
+  footer {    
     text-align: center;
     padding: 1rem;
   }
