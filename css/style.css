@@ -11,6 +11,11 @@ body {
   margin: 0;
   padding: 0;
   }
+  h1 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+  }
   
   header {
     color: #fff;
@@ -29,6 +34,10 @@ body {
     justify-content: space-between;
     align-items: center;
     
+  }
+
+  .row {
+    background-color: #666;
   }
   
   .logo img {
@@ -53,7 +62,7 @@ body {
   .nav-links li a {
     color:#fff;
     text-decoration: none;
-    background-color: #ff3838;
+    background-color:#666;
     padding: 3px;
     border-radius: 10%;
     margin-right: 2px;
@@ -68,6 +77,24 @@ body {
     text-decoration: none;    
     border-radius: 5px;
   }
+  
+  .card-img-top {
+    width: 80%;
+  }
+
+  .card-title {
+    color:#ff3838;
+  }
+  .card-text {
+    color: #333;
+    text
+  }
+
+  #services {
+    color: #333;
+  }
+
+  
 
   /* Media queries for responsive screen layout */
 @media screen and (min-width: 768px) {
