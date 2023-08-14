@@ -85,14 +85,28 @@ body {
   .card-title {
     color:#ff3838;
   }
+  
   .card-text {
     color: #333;
     text
   }
 
+  .card-body {
+    background-color: #fff;
+  }
+
+  .webdesign {
+    padding-bottom: 1%;
+  }
+
+
+
   #services {
     color: #333;
+   
   }
+
+ 
 
   
 
@@ -128,23 +142,21 @@ body {
     padding: 1rem;
   }
   
-  .services {
-    
+  .service {    
     text-align: center;
     padding: 3rem;
   }
   
-  .services h3 {
+  .service h3 {
     margin-top: 1rem;
   }
   
-  .services p {
+  .service p {
     max-width: 400px;
     margin: 0 auto;
   }
   
-  .portfolio {
-    
+  .portfolio {    
     text-align: center;
     padding: 3rem;
   }
