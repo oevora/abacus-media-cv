@@ -14,7 +14,7 @@ body {
   h1 {
     color: #333;
     text-align: center;
-    text-transform: uppercase;
+    
   }
   
   header {
@@ -26,7 +26,7 @@ body {
   .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    paddin: 20px;
   }
   
   nav {
@@ -34,16 +34,13 @@ body {
     justify-content: space-between;
     align-items: center;
     
-  }
-
-  .row {
-    background-color: #666;
-  }
-  
-  .logo img {
+  }  
+  .logo-img {
     width: 100px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
   }
+   
   
   .nav-links {
     display: none;
@@ -68,17 +65,8 @@ body {
     margin-right: 2px;
   }
   
-  .cta {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 2px;
-    background-color: #fff;
-    color: #ff3838;
-    text-decoration: none;    
-    border-radius: 5px;
-  }
-  
-  .card-img-top {
+
+  .card-im-top {
     width: 80%;
   }
 
@@ -91,70 +79,35 @@ body {
     text
   }
 
-  .card-body {
-    background-color: #fff;
-  }
-
-  .webdesign {
-    padding-bottom: 1%;
-  }
-
-
-
+  
   #services {
     color: #333;
    
-  }
-
- 
-
-  
+  }  
 
   /* Media queries for responsive screen layout */
-@media screen and (min-width: 768px) {
-  body {
-    font-size: 14px;
-  }
+             /* @media screen and (min-width: 768px) {
+                body {
+                  font-size: 14px;
+                }
 
-  .header {
-    padding: 10px;
-  }
+                .header {
+                  padding: 10px;
+                }
 
-  .container {
-    padding: 10px;
-  }
+                .container {
+                  padding: 10px;
+                }
 
-  .nav-links {
-    display: block;
-  }
-  
-  .cta {
-    margin-top: 0;
-  }
-}  
-  .hero {    
-    text-align: center;
-    padding: 3rem;
-  }
-  
-  .about {    
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  .service {    
-    text-align: center;
-    padding: 3rem;
-  }
-  
-  .service h3 {
-    margin-top: 1rem;
-  }
-  
-  .service p {
-    max-width: 400px;
-    margin: 0 auto;
-  }
+                .nav-links {
+                  display: block;
+                }
+                
+                .cta {
+                  margin-top: 0;
+                }
+              }  */
+
   
   .portfolio {    
     text-align: center;
@@ -165,52 +118,13 @@ body {
     width: 100%;
     max-width: 300px;
   }
-  
-  .testimonials {
-    
+
+  .footer h6 {
+    color: #fff;
+    background-color: #333;    
     text-align: center;
-    padding: 3rem;
   }
-  
-  .testimonial p {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  
-  .contact {
-    background-color: #333;
-   
-    text-align: center;
-    padding: 3rem;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  form input,
-  form textarea,
-  form button {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  form button {
-    color: #ff3838;
-    cursor: pointer;
-  }
-  
-  .contact-details p {
-    margin-bottom: 0.5rem;
-  }
-  
-  footer {    
-    text-align: center;
-    padding: 1rem;
-  }
+
+ 
+
   
